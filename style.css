@@ -133,7 +133,7 @@ i.fa-brands:hover{
 .search{
         width: 520px;
         height: 40px;
-        background: #d3e0f19d;
+        background: #d3e0f1;
         border: none;
         font-size: 10pt;
         float: left;
@@ -178,4 +178,16 @@ div.middle{
 }
 input.search:active{
    color: #18a3f9;
+}
+#screenshot{
+    width: 600px;
+    height: 1600px;
+    padding-top: 10px;
+    overflow: auto;
+    padding-left: 150px;
+}
+#h4{
+    
+    padding-left: 165px;
+    padding-top: 60px;
 }
