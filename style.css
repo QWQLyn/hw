@@ -87,7 +87,6 @@ table {
     font-size: 14px;
     line-height: 30px;
     min-height: 35px;
-    border-radius: 2px;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     color: #18a3f9;
     background-color: rgb(255, 255, 255);
@@ -186,8 +185,41 @@ input.search:active{
     overflow: auto;
     padding-left: 150px;
 }
-#h4{
-    
+#h2{
+    font-weight: bolder;
     padding-left: 165px;
     padding-top: 60px;
 }
+#Login{
+    position: fixed;
+    left: 800px;
+    top: 40px;
+    right: 100px;
+}    
+#font{
+   font-weight: bolder;
+    font-size: larger; 
+}
+.font1{
+    font-weight: lighter;
+    font-size: smaller; 
+ }
+.loginbtn{
+    width: 300px;
+    height: 40px;
+    border-color: #8290a3;
+    border-radius: 100px;
+    background-color: #eeeff1;    
+}
+.big{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.setbtn,.setbtn:hover{
+    width: 300px;
+    height: 60px;
+    border-color: #FFFFFF;
+    border-right: #18a3f9;
+    
+}
+
